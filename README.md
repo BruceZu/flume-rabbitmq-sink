@@ -23,11 +23,13 @@ TO build library with gradle.
 
     ./gradlew build
 
-License
+How to setup in agent config
 -------------------
 
-The Apache Software License, Version 2.0
-
+```ini
+<Agent>.sinks = <Sink1>
+<Agent>.sinks.<Sink1>.type = jp.glassmoon.flume.sink.rabbitmq.RabbitMQSink
+```
 
 Configuration
 -------------------
@@ -46,6 +48,11 @@ Configuration
 |appId             | **(Empty)**
 |contentEncoding   | **UTF-8**
 |contentType       | **application/octet-stream**
+
+License
+-------------------
+
+The Apache Software License, Version 2.0
 
 Copyright
 -------------------
