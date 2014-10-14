@@ -7,7 +7,15 @@ flume-rabbitmq-sink
 Synopsis
 -------------------
 
-This is a flume sink for RabbitMQ.
+This is a flume sink for RabbitMQ. Mainly used as publisher for Gerrit Trigger.
+
+* [Jenkins]
+* [Gerrit Trigger]
+* [RabbitMQ Consumer]
+
+[Jenkins]: http://jenkins-ci.org/
+[Gerrit Trigger]: https://wiki.jenkins-ci.org/display/JENKINS/Gerrit+Trigger
+[RabbitMQ Consumer]: https://wiki.jenkins-ci.org/display/JENKINS/RabbitMQ+Consumer+Plugin
 
 Environments
 -------------------
