@@ -1,4 +1,53 @@
 flume-rabbitmq-sink
 ===================
 
-A flume sink for RabbitMQ
+* Author: rinrinne a.k.a. rin_ne
+* Repository: https://github.com/rinrinne/flume-rabbitmq-sink.git
+
+Synopsis
+-------------------
+
+This is a flume sink for RabbitMQ.
+
+Environments
+-------------------
+
+* `linux`
+  * `java-1.6`
+    * `gradle`
+
+Build
+-------------------
+
+TO build library with gradle.
+
+    ./gradlew build
+
+License
+-------------------
+
+The Apache Software License, Version 2.0
+
+
+Configuration
+-------------------
+
+**Bold** is string value.
+
+|name              | default value
+|:-----------------|:-----------------
+|uri               | **amqp://localhost**
+|username          | **guest**
+|password          | **guest**
+|exchange          | **gerrit.publish**
+|routingKey        | 1
+|deliveryMode      | 0
+|priority          | **(Empty)**
+|appId             | **(Empty)**
+|contentEncoding   | **UTF-8**
+|contentType       | **application/octet-stream**
+
+Copyright
+-------------------
+
+Copyright (c) 2014 rinrinne a.k.a. rin_ne
