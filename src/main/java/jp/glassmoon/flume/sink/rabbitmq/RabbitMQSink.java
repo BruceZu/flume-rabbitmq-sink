@@ -213,10 +213,10 @@ public class RabbitMQSink extends AbstractSink implements Configurable {
         public static final String USERNAME = "username";
         public static final String PASSWORD = "password";
         public static final String EXCHANGE = "exchange";
-        public static final String DELIVERYMODE = "deliverymode";
+        public static final String DELIVERYMODE = "deliveryMode";
         public static final String PRIORITY = "priority";
-        public static final String ROUTINGKEY = "routingkey";
-        public static final String APPID = "appid";
+        public static final String ROUTINGKEY = "routingKey";
+        public static final String APPID = "appId";
         public static final String CONTENT_ENCODING = "contentEncoding";
         public static final String CONTENT_TYPE = "contentType";
 
@@ -227,7 +227,7 @@ public class RabbitMQSink extends AbstractSink implements Configurable {
         public static final int DEFAULT_DELIVERYMODE = 1;
         public static final int DEFAULT_PRIORITY = 0;
         public static final String DEFAULT_ROUTINGKEY = "";
-        public static final String DEFAULT_APPID = "gerrit";
+        public static final String DEFAULT_APPID = "";
         public static final String DEFAULT_CONTENT_ENCODING = "UTF-8";
         public static final String DEFAULT_CONTENT_TYPE = "application/octet-stream";
     }
