@@ -50,9 +50,9 @@ Configuration
 |username          | **guest**
 |password          | **guest**
 |exchange          | **gerrit.publish**
-|routingKey        | 1
-|deliveryMode      | 0
-|priority          | **(Empty)**
+|routingKey        | **(Empty)**
+|deliveryMode      | 1
+|priority          | 0
 |appId             | **(Empty)**
 |contentEncoding   | **UTF-8**
 |contentType       | **application/octet-stream**
