@@ -57,6 +57,8 @@ Configuration
 |contentEncoding   | **UTF-8**
 |contentType       | **application/octet-stream**
 
+If you use this together with [Gerrit Trigger], you must replace `contentType` to `application/json`.
+
 License
 -------------------
 
