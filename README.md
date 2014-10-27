@@ -40,7 +40,7 @@ To release package with gradle.
 
 zip file is craeted into build/distributions/.
 
-You can install it by x extracting to $FLUME_HOME/plugins.d/.
+You can install it by extracting to $FLUME_HOME/plugins.d/.
 
 How to setup in agent config
 -------------------
