@@ -14,3 +14,16 @@ dependencies {
   compile 'org.apache.flume:flume-ng-core:1.5.0.1'
   compile 'com.rabbitmq:amqp-client:3.3.5'
 }
+
+task release(type: Zip, dependsOn: assemble) {
+  from(jar.outputs.files) {
+    into "$archivesBaseName/lib"
+  }
+  from(findJar('amqp-client')) {
+    into "$archivesBaseName/libext"
+  }
+}
+
+def findJar(prefix) {
+  configurations.runtime.filter { it.name.startsWith(prefix) }
+}
