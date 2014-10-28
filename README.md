@@ -4,6 +4,8 @@ flume-rabbitmq-sink
 * Author: rinrinne a.k.a. rin_ne
 * Repository: https://github.com/rinrinne/flume-rabbitmq-sink.git
 
+[![Build Status](https://travis-ci.org/rinrinne/flume-rabbitmq-sink.svg?branch=master)](https://travis-ci.org/rinrinne/flume-rabbitmq-sink)
+
 Synopsis
 -------------------
 
